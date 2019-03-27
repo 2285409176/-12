@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>用户信息设置页面</title>
+	</head>
+	<body>
+		<!--表单开始-->
+		<form>
+		<table>
+		<tr ><td>名称</td>
+		<td><input type="text" name="username" id="username" value="用户名" /></td></tr>
+		<tr><td>密码</td> <td><input type="password" name="psw" id="psw" value="123456" /></td></tr>
+		<tr><td>性别 </td><td><input type="radio" name="xingbie" id="xingbie" />男
+		<input type="radio" name="xingbie" id="xingbie" />女</td></tr>
+		<tr><td>头像上传</td><td><input type="file"/></td></tr>
+		<tr><td>出生年月</td><td><select multiple name="birthday">
+			<option>1920</option>
+			<option>1921</option>
+			<option>1922</option>
+			<option>1923</option>
+			<option>1924</option>
+		</select></td></tr>
+		<tr><td>手机号码 ：</td><td><input type="number"/></td></tr>
+		<tr><td>电子邮件：</td><td> <input type="email"  /></td></tr>
+		<tr><td>邮件订阅：</td><td> <input type="checkbox" name="email" checked>优惠促销
+		<input type="checkbox" name="email"  />新品发布</td></tr>
+		<td>自我介绍：</td><td><textarea rows="5" cols="20" style="resize: none;"></textarea>
+		</table>
+		</form>
+		<!--表单结束-->
+	</body>
+</html>
